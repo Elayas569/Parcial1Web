@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parcial 1 Elias Ortega</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.3/lux/bootstrap.min.css"
+      integrity="sha512-RI2S7J+KOTIVVh6JxrBRNIxJjIioHORVNow+SSz2OMKsDLG5y/YT6iXEK+R0LlKBo/Uwr1O063yT198V6AZh4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Lexend:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">ProyectaBim360</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contacto.html"
+                >Contacto<span class="visually-hidden">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid darkBg">
+      <div class="container p-5">
+        <div class="container w-100 d-flex justify-content-center mb-4">
+          <h1 class="big-Font contact-Form" id="txt-white">Contáctanos</h1>
+        </div>
+        <form>
+          <div class="row mb-4">
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <input type="text" id="form6Example1" class="form-control" />
+                <label class="form-label" id="txt-white" for="form6Example1"
+                  >Nombre</label
+                >
+              </div>
+            </div>
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <input type="text" id="form6Example2" class="form-control" />
+                <label class="form-label" id="txt-white" for="form6Example2"
+                  >Apellido</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="email" id="form6Example5" class="form-control" />
+            <label class="form-label" id="txt-white" for="form6Example5"
+              >Email</label
+            >
+          </div>
+
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="number" id="form6Example6" class="form-control" />
+            <label class="form-label" id="txt-white" for="form6Example6"
+              >Teléfono</label
+            >
+          </div>
+
+          <div data-mdb-input-init class="form-outline mb-4">
+            <textarea
+              class="form-control"
+              id="form6Example7"
+              rows="4"
+            ></textarea>
+            <label class="form-label" id="txt-white" for="form6Example7"
+              >Razón de contacto</label
+            >
+          </div>
+          <button
+            data-mdb-ripple-init
+            type="button"
+            class="btn btn-primary btn-block mb-4 rounded"
+          >
+            Contactar
+          </button>
+        </form>
+      </div>
+    </div>
+    <footer class="bg-primary text-center">
+      <div class="text-center p-3" id="txt-white">
+        © 2025 Copyright: ProyectaBim360 S.A de C.V
+      </div>
+    </footer>
+  </body>
+</html>
