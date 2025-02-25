@@ -30,7 +30,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="darkBg">
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand" href="#">ProyectaBim360</a>
@@ -54,80 +54,28 @@
               <a class="nav-link" href="nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="enventa.html">En venta</a>
+              <a class="nav-link active" href="enventa.html"
+                >En venta<span class="visually-hidden">(current)</span></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contacto.html"
-                >Contacto<span class="visually-hidden">(current)</span></a
-              >
+              <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container-fluid darkBg">
-      <div class="container p-5">
-        <div class="container w-100 d-flex justify-content-center mb-4">
-          <h1 class="big-Font contact-Form" id="txt-white">Contáctanos</h1>
-        </div>
-        <form>
-          <div class="row mb-4">
-            <div class="col">
-              <div data-mdb-input-init class="form-outline">
-                <input type="text" id="form6Example1" class="form-control" />
-                <label class="form-label" id="txt-white" for="form6Example1"
-                  >Nombre</label
-                >
-              </div>
-            </div>
-            <div class="col">
-              <div data-mdb-input-init class="form-outline">
-                <input type="text" id="form6Example2" class="form-control" />
-                <label class="form-label" id="txt-white" for="form6Example2"
-                  >Apellido</label
-                >
-              </div>
-            </div>
-          </div>
-
-          <div data-mdb-input-init class="form-outline mb-4">
-            <input type="email" id="form6Example5" class="form-control" />
-            <label class="form-label" id="txt-white" for="form6Example5"
-              >Email</label
-            >
-          </div>
-
-          <div data-mdb-input-init class="form-outline mb-4">
-            <input type="number" id="form6Example6" class="form-control" />
-            <label class="form-label" id="txt-white" for="form6Example6"
-              >Teléfono</label
-            >
-          </div>
-
-          <div data-mdb-input-init class="form-outline mb-4">
-            <textarea
-              class="form-control"
-              id="form6Example7"
-              rows="4"
-            ></textarea>
-            <label class="form-label" id="txt-white" for="form6Example7"
-              >Razón de contacto</label
-            >
-          </div>
-          <button
-            data-mdb-ripple-init
-            type="button"
-            class="btn btn-primary btn-block mb-4 rounded"
-          >
-            Contactar
-          </button>
-        </form>
+    <div class="container-fluid ms-2 me-2 mt-5 p-0">
+      <div
+        class="text-center d-flex flex-column align-items-center"
+        id="center"
+      >
+        <h1 class="custom-h1" id="txt-white">Próximamente</h1>
+        <p class="textJustify" id="txt-white">
+          Aquí va un catálogo, pero no se JS para hacerlo dinámico y no me ha
+          pasado los renders mi papá de las casas 👍🏻
+        </p>
       </div>
     </div>
-    <footer class="bg-primary text-center">
-      <div class="text-center p-3" id="txt-white">
-        © 2025 Copyright: ProyectaBim360 S.A de C.V
-      </div>
-    </footer>
   </body>
 </html>
