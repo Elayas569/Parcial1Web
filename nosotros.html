@@ -30,7 +30,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="darkBg">
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand" href="#">ProyectaBim360</a>
@@ -51,77 +51,51 @@
               <a class="nav-link" href="index.html">Inicio </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="nosotros.html">Nosotros</a>
+              <a class="nav-link active" href="nosotros.html"
+                >Nosotros<span class="visually-hidden">(current)</span></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contacto.html"
-                >Contacto<span class="visually-hidden">(current)</span></a
-              >
+              <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container-fluid darkBg">
-      <div class="container p-5">
-        <div class="container w-100 d-flex justify-content-center mb-4">
-          <h1 class="big-Font contact-Form" id="txt-white">Contáctanos</h1>
-        </div>
-        <form>
-          <div class="row mb-4">
-            <div class="col">
-              <div data-mdb-input-init class="form-outline">
-                <input type="text" id="form6Example1" class="form-control" />
-                <label class="form-label" id="txt-white" for="form6Example1"
-                  >Nombre</label
-                >
-              </div>
-            </div>
-            <div class="col">
-              <div data-mdb-input-init class="form-outline">
-                <input type="text" id="form6Example2" class="form-control" />
-                <label class="form-label" id="txt-white" for="form6Example2"
-                  >Apellido</label
-                >
-              </div>
-            </div>
-          </div>
-
-          <div data-mdb-input-init class="form-outline mb-4">
-            <input type="email" id="form6Example5" class="form-control" />
-            <label class="form-label" id="txt-white" for="form6Example5"
-              >Email</label
-            >
-          </div>
-
-          <div data-mdb-input-init class="form-outline mb-4">
-            <input type="number" id="form6Example6" class="form-control" />
-            <label class="form-label" id="txt-white" for="form6Example6"
-              >Teléfono</label
-            >
-          </div>
-
-          <div data-mdb-input-init class="form-outline mb-4">
-            <textarea
-              class="form-control"
-              id="form6Example7"
-              rows="4"
-            ></textarea>
-            <label class="form-label" id="txt-white" for="form6Example7"
-              >Razón de contacto</label
-            >
-          </div>
-          <button
-            data-mdb-ripple-init
-            type="button"
-            class="btn btn-primary btn-block mb-4 rounded"
-          >
-            Contactar
-          </button>
-        </form>
+    <div class="container-fluid d-flex ms-2 me-2 mt-5 p-0">
+      <div class="text-center d-flex flex-column align-items-center">
+        <h1 class="custom-h1" id="txt-white">¿Quienes somos?</h1>
+        <p class="textJustify" id="txt-white">
+          Somos una empresa con 15 años de experiencia en el desarrollo
+          inmobiliario, comprometidos en ofrecer soluciones innovadoras y de
+          alta calidad. Utilizamos metodologías y estándares BIM con
+          herramientas como Revit®, Naviswork® y Formit® para garantizar
+          eficiencia y precisión en cada proyecto. Nos especializamos en
+          desarrollos residenciales que combinan diseño, funcionalidad y
+          exclusividad, asegurando a nuestros clientes confianza y excelencia en
+          cada paso del proceso.
+        </p>
+        <div class="separator"></div>
+        <h1 class="custom-h1" id="txt-white">Visión</h1>
+        <p class="textJustify" id="txt-white">
+          Ser líderes en el sector inmobiliario, creando desarrollos exclusivos
+          y vanguardistas que redefinan el concepto de hogar, brindando a
+          nuestros clientes espacios únicos que combinan lujo, privacidad y
+          confort, con el respaldo de tecnología de punta y estándares de
+          calidad superiores.
+        </p>
+        <div class="separator"></div>
+        <h1 class="custom-h1 mb-4" id="txt-white">Misión</h1>
+        <p class="textJustify" id="txt-white">
+          Diseñar y construir proyectos inmobiliarios de alto nivel, ofreciendo
+          soluciones integrales desde la planificación hasta la entrega llave en
+          mano. Nos enfocamos en la innovación, la calidad y la satisfacción de
+          nuestros clientes, garantizando confianza, seguridad y un estilo de
+          vida excepcional en cada uno de nuestros desarrollos.
+        </p>
       </div>
     </div>
-    <footer class="bg-primary text-center">
+    <footer class="bg-primary text-center mt-5">
       <div class="text-center p-3" id="txt-white">
         © 2025 Copyright: ProyectaBim360 S.A de C.V
       </div>
